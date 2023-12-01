@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treći zadatak</title>
+    <link rel="stylesheet" href="Treci_zadatak.css">
+</head>
+<body>
+    <div class="osnovniDiv">
+        <h1>Pasoš kućnog ljubimca</h1>
+        
+        <img src="Pas.PNG" alt="">
+
+        <h1>Podaci kućnog ljubimca</h1>
+        <table id="tabela">
+            <tr>
+                <th><label for="broj pasosa">Broj pasoša:</label></th>
+                <th><input type="number" name="broj pasosa" id="broj pasosa"></th>
+            </tr>
+            <tr>
+                <th><label for="imeljubimca">Ime ljubimca:</label></th>
+                <th><input type="text" name="imeljubimca" id="imeljubimca"></th>
+            </tr>
+            <tr>
+                <th><label for="vrstaljubimca">Vrsta ljubimca:</label></th>
+                <th><input type="text" name="vrstaljubimca" id="vrstaljubimca"></th>
+            </tr>
+            <tr>
+                <th><label for="vlasnik">Vlasnik:</label></th>
+                <th style="text-align: left;">
+                    <input type="radio" name="vlasnik" id="vlasnik" value="Poznat"> Poznat 
+                    <input type="text" name="vlasnik" id="vlasnik" placeholder="JMBG vlasnika">
+                    <br>
+                    <input type="radio" name="vlasnik" id="vlasnik" value="Nepoznat" checked> Nepoznat
+                </th>    
+            </tr>
+        </table>
+
+        <h1>Saglasnost</h1>
+        <ul style="list-style-type: square;">
+            <li>Saglasan sam sa unetim podacima</li>
+            <p></p>
+            <li>Potpis podnosioca: _______________________</li>
+            <p></p>
+            <li>Potpis veterinara: _______________________</li>
+        </ul>
+    </div>
+
+    
+</body>
+</html>

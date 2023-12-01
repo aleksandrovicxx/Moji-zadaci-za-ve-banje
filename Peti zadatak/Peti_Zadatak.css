@@ -1,0 +1,16 @@
+div:first-child{
+    background-color: blue;
+}
+div div:first-child {
+    background-color: green;
+}
+div span:first-child{
+    background-color: yellow;
+}
+div span:nth-child(2){
+    background-color: grey;
+}
+div:nth-child(2){
+    background-color: red;
+    color: white;
+}

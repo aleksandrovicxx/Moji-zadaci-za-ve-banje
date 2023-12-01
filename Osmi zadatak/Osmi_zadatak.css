@@ -1,0 +1,13 @@
+.tabela {
+    border-collapse: collapse;
+    width: 100%;
+}
+.prva {
+    border: 1px solid black;
+}
+.druga td{
+    border: 1px solid black;
+}
+.treca td {
+    border: 1px solid black;
+}
